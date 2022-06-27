@@ -1,0 +1,37 @@
+body::before {
+  content: '';
+  display: block;
+  height: 60px;
+}
+
+.cardicon {
+  filter: invert(1);
+  height: auto;
+  width: 20%;
+}
+
+.card {
+  filter: contrast(120%);
+}
+
+#learn {
+  filter: contrast(150%);
+}
+
+#guitarprimary {
+  filter: brightness(0) saturate(100%) invert(18%) sepia(7%) saturate(1030%) hue-rotate(169deg) brightness(95%) contrast(85%);
+}
+
+#guitarsecondary {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(8%) saturate(547%) hue-rotate(166deg) brightness(95%) contrast(84%);
+}
+
+#uparrow {
+  filter: invert(1);
+}
+
+@media only screen and (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
